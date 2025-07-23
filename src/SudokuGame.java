@@ -302,7 +302,7 @@ public class SudokuGame extends JFrame {
         updateBoardDisplay();
     }
 
-    private void finishGame() {
+    private void finishGame(){
         boolean hasEmpty = false;
         boolean hasConflicts = false;
 
